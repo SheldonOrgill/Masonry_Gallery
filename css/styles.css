@@ -1,0 +1,184 @@
+html {
+    /* border-box box model allows us to add padding and border to our elements without increasing their size */
+    box-sizing: border-box;
+  }
+
+    /*
+    WAT IS THIS?!
+    We inherit box-sizing: border-box; from our <html> selector
+    Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
+  */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      background-color: black;
+  }
+
+  .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+      grid-gap: 10px;
+      grid-auto-rows: 250px;
+  }
+
+  .item1 {
+      background-image: url(../img/marlon.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item2 {
+      background-image: url(../img/natheer.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item3 {
+      background-image: url(../img/evan.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item4 {
+      background-image: url(../img/daniel.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item5 {
+      background-image: url(../img/gcobisa.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;    
+  }
+  
+  .item6 {
+      background-image: url(../img/gedeon.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item7 {
+      background-image: url(../img/jessie.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+  }
+  
+  .item8 {
+      background-image: url(../img/josh.png);
+      background-size: cover;
+      background-repeat: no-repeat;      
+  }
+  
+  .item9 {
+      background-image: url(../img/miguel.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item10 {
+      background-image: url(../img/reagan.JPG);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item11 {
+      background-image: url(../img/litha.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;    
+      grid-row-end: span 3;
+      grid-column-end: span 2;
+  }
+  
+  .item12 {
+      background-image: url(../img/michael.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item13 {
+      background-image: url(../img/john-paul.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-column-end: span 2;
+  }
+  
+  .item14 {
+      background-image: url(../img/kaylem.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item15 {
+      background-image: url(../img/sheldon.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item16 {
+      background-image: url(../img/shakeel.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item17 {
+      background-image: url(../img/shanton.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;   
+      grid-row-end: span 2; 
+  }
+  
+  .item18 {
+      background-image: url(../img/taariq.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 3;
+      grid-column-end: span 2;
+  }
+  
+  .item19 {
+      background-image: url(../img/taufeeq.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item20 {
+      background-image: url(../img/tyron.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-row-end: span 2;
+  }
+  
+  .item21 {
+      background-image: url(../img/urick.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item22 {
+      background-image: url(../img/ashtone.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .item23 {
+      background-image: url(../img/warnita.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;    
+  }
+  
+  .item24 {
+      background-image: url(../img/zainab.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
