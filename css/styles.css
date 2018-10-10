@@ -15,16 +15,16 @@ html {
   }
 
   body {
-      background-color: black;
+      background-color: grey;
   }
-
+/* main container */
   .container {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
       grid-gap: 10px;
       grid-auto-rows: 250px;
   }
-
+/* items are all the pictures of the people in my class */
   .item1 {
       background-image: url(../img/marlon.jpg);
       background-size: cover;
